@@ -1,9 +1,11 @@
 #include <iostream>
-#include "pdb.h"
+#include "./structures.h"
 using namespace std;
 
 int main(int argc, char *argv[]) {
   cout << "Welcome to atomium++" << endl;
-  cout << "The test PDB is " << pdb.length() << " bytes long" << endl;
+
+  // Make atom
+  Atom* atom = new Atom();
   return 0;
 }
